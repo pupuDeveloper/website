@@ -1,0 +1,25 @@
+body {
+    background-color: #5C5C5C;
+}
+
+.top{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+li a {
+    display: inline-block;
+    color: pink;
+    padding:2px 20px;
+    text-decoration: none;
+    font: 15px Helvetica, sans-serif;
+}
