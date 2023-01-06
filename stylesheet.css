@@ -34,6 +34,14 @@ li a {
     width: 100px;
     background-color: pink;
     float: left;
+    justify-content: left;
+}
+
+.menuList {
+    text-align: left;
+    list-style-type: none;
+    padding-top: 5px;
+    font: 15px Helvetica, sans-serif;
 }
 
 .Layout_contents {
@@ -57,13 +65,20 @@ li a {
 
 .flex_sideMenu {
     flex: 1;
-    margin-right: 5px;
+    justify-content: left;
+    padding-top: 75px;
 }
 
 p {
     font: 15px Helvetica, sans-serif;
+    text-align: left;
 }
 
 h2 {
     font: 25px Helvetica, sans-serif;
+}
+
+h3 {
+    font: 20px Helvetica, sans-serif;
+    text-align: left;
 }
