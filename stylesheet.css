@@ -1,5 +1,5 @@
 body {
-    background-color: #5C5C5C;
+    background-color: #444444;
 }
 
 .top{
@@ -27,6 +27,13 @@ li a {
 .mainbody {
     width: 880px;
     background-color: white;
+    float: center;
+}
+
+.sideMenu {
+    width: 100px;
+    background-color: pink;
+    float: left;
 }
 
 .Layout_contents {
@@ -42,8 +49,21 @@ li a {
 }
 
 .flex_child {
-    flex: 1;
+    flex: 3;
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.flex_sideMenu {
+    flex: 1;
+    margin-right: 5px;
+}
+
+p {
+    font: 15px Helvetica, sans-serif;
+}
+
+h2 {
+    font: 25px Helvetica, sans-serif;
 }
