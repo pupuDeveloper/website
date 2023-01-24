@@ -2,7 +2,7 @@ body {
     background-color: #444444;
 }
 
-.top{
+.top {
     padding: 0;
     margin: 0;
     background-color: black;
@@ -16,17 +16,17 @@ body {
     left: 0;
 }
 
-.top > li > a{
+.top>li>a {
     display: inline-block;
     color: pink;
-    padding:2px 20px;
+    padding: 2px 20px;
     text-decoration: none;
     font: 15px Helvetica, sans-serif;
 }
 
 .mainbody {
     width: 880px;
-    margin:auto;
+    margin: auto;
     background-color: white;
 }
 
@@ -60,6 +60,7 @@ body {
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    text-align: center;
 }
 
 .flex_sideMenu {
