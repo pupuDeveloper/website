@@ -26,8 +26,8 @@ body {
 
 .mainbody {
     width: 880px;
+    margin:auto;
     background-color: white;
-    float: center;
 }
 
 .sideMenu {
